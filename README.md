@@ -1,5 +1,8 @@
 # Predator–Prey Co-Evolution using NEAT
 
+![Simulation Demo](assets/Pred_Prey_GIF.gif)
+
+
 This project is a real-time simulation where predator and prey agents evolve behaviour over time using NeuroEvolution of Augmenting Topologies (NEAT). The goal is to explore how simple rules and co-evolution can produce emergent behaviour.
 
 ## Overview
