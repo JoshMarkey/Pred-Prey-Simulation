@@ -24,8 +24,8 @@ class Simulation:
         # Resolve to the folder this file lives in
         BASE_DIR = Path(__file__).resolve().parent
 
-        predator_cfg = BASE_DIR / "predator_neat.config"
-        prey_cfg      = BASE_DIR / "prey_neat.config"   # if you have one
+        predator_cfg = BASE_DIR / "config" / "predator_neat.config"
+        prey_cfg      = BASE_DIR / "config" / "prey_neat.config"
 
         # Load NEAT configurations
         self.predatorConfig = neat.Config(
